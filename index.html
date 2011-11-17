@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>Example</title>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" type="text/css" media="all" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="movable-columns.js"></script>
+  <style type="text/css" media="screen">
+    table { border-collapse: collapse; border: solid thin black; }
+    table th { cursor: move; }
+
+    movable-columns-hover { background-color: #fff7d9; }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      $('table').movableColumns();
+      // click also work, so that you can still sort your column:
+      $('th').click(function(){ window.console && console.log('clicked') });
+    });
+  </script>
+</head>
+<body>
+  <table border="1">
+    <thead>
+      <tr><th>Header 1</th><th>Header 2</th><th>Header 3</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+      <tr><td>Content 1</td><td>Content 2</td><td>Content 3</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
