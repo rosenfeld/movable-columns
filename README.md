@@ -14,4 +14,5 @@ Css:
 
 The table is a regular one. The _th_ elements from the first row will be draggable/droppables.
 
-Take a look at index.html in the _example_ branch for an example or at [this project page](http://rosenfeld.github.com/movable-columns/).
+Take a look at index.html in the _example_ branch for an example or at
+[this project page](http://rosenfeld.github.com/movable-columns/).
